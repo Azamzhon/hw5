@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EditActivity"
+    android:background="#00BCD4">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <EditText
+        android:id="@+id/ef_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="17"
+        android:hint="@string/student_name"/>
+    <EditText
+        android:id="@+id/ef_phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="17"
+        android:hint="@string/student_phone_number"/>
+    <EditText
+        android:id="@+id/ef_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="17"
+        android:hint="@string/student_group"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/save_btn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_height="wrap_content"
+            android:background="#009688"
+            android:textAllCaps="false"
+            android:text="@string/save"
+            android:textSize="24sp"/>
+
+        <Button
+            android:id="@+id/cancel_btn"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="#009688"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:text="@string/cancel"
+            android:textSize="24sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

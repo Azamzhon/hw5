@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityForStudentInfo"
+    android:background="#00BCD4">
+
+    <TextView
+        android:id="@+id/nameStudent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="13"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/example_name"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/pnStudent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="13"
+        android:layout_marginStart="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/nameStudent"
+        android:layout_marginTop="60dp"
+        android:text="@string/example_numberPhone"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/groupStudent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="13"
+        android:layout_marginStart="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/pnStudent"
+        android:layout_marginTop="60dp"
+        android:text="@string/example_group"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btn_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#009688"
+        android:text="@string/edit"
+        android:textSize="24sp"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@id/groupStudent"
+        app:layout_constraintRight_toRightOf="@id/groupStudent"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#009688"
+        android:text="@string/save"
+        android:textSize="24sp"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@id/groupStudent"
+        app:layout_constraintLeft_toLeftOf="@id/groupStudent"
+        android:layout_margin="20dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

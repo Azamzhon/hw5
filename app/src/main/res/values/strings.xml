@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">hw5</string>
+    <string name="student_name">Full Name:</string>
+    <string name="student_phone_number">Phone Number:</string>
+    <string name="student_group">Group:</string>
+    <string name="example_name">Mirzakhalilov Azamzhon</string>
+    <string name="example_numberPhone">+996 755 381 500</string>
+    <string name="example_group">21</string>
+    <string name="todo">TODO</string>
+    <string name="save">Save</string>
+    <string name="btn_add">+</string>
+    <string name="cancel">Cancel</string>
+    <string name="type_here">Type here:</string>
+    <string name="edit">Edit</string>
+</resources>
